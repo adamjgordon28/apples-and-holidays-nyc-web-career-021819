@@ -60,7 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_words.each do |word|
         word.capitalize!
       end
-      final_holiday_words = holiday.words.join(" ")
+      final_holiday_words = holiday_words.join(" ")
       supplies_list = supplies.join(", ")
       puts "  #{final_holiday_words}: #{supplies_list}"
     end
