@@ -54,7 +54,6 @@ def all_supplies_in_holidays(holiday_hash)
 
   holiday_hash.each do |season, holiday|
     lower_case = "#{season}: #{holiday}"
-    puts lower_case.capitalize
   end
 
 end
