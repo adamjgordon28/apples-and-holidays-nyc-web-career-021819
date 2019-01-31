@@ -40,7 +40,7 @@ holiday_hash
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-  grouped_supplies = holiday_hash[:winter].values
+  grouped_supplies = holiday_hash[:winter].values.flatten
   grouped_supplies.flatten
 end
 
